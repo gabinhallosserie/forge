@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
     return (
-        <div className={"w-screen flex justify-between items-center border-b-2 border-black py-5 px-20"}>
+        <div className={"w-screen h-20 flex justify-between items-center border-b-2 border-black py-5 px-20"}>
             <div className={"flex items-center"}>
                 <Link href={"/"} className={"text-3xl font-black text-black"}>FORGE</Link>
             </div>
